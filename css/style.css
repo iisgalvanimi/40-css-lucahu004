@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+}
+
+.upper-div {
+    margin: auto;
+    border-radius: 3%;
+    background-color: rgb(47, 3, 88);
+    padding-top: 10px;
+    padding-bottom: 3px;
+    border-radius: 5px 5px 5px 5px;
+    width: 900px;
+    color: white;
+}
+
+#upper-div-image{
+    border-radius: 60%;
+    width: 150px;
+    height: 150px;
+}
+
+.upper-div-link{
+    color: white;
+}
+
+.container {  
+    display: flex;
+    background-color: gold;
+    padding-top: 10px;
+    margin-left: 100px;
+    padding-left: 10px;
+    margin-right: 100px;
+    padding-right: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-style: groove;
+    border-radius: 4px;
+}
+
+.item {
+flex-grow: 1;
+height: 100px;
+width: 500px;
+background-color: aliceblue;
+border-style: groove;
+border-radius: 4px;
+margin: 1%;
+}
